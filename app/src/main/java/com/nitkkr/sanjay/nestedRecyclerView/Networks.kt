@@ -33,7 +33,7 @@ interface ApiService {
 data class HouseResponse(
 
     @field:SerializedName("members")
-    val members: List<MemberItemResponse?>? = null,
+    val members: List<MemberItemResponse>? = null,
 
     @field:SerializedName("name")
     val name: String? = null,
